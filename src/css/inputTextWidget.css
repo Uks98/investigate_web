@@ -1,0 +1,24 @@
+
+.InputTextWidgetBody{
+   display: flex;
+   
+}
+.InputTextWidgetBody p{
+   margin-right: 20px;
+    font-size: 16px;
+    font-weight: bolder;
+ }
+.input-field {
+    width: 100%;
+    max-width: 200px; /* 최대 너비를 설정 */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px; /* 전체 둥글기를 10으로 설정 */
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.input-field::placeholder {
+    color: #aaa; /* 힌트 텍스트 색상 설정 */
+}
+
